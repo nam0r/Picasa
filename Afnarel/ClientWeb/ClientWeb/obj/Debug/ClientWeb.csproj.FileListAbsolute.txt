@@ -1,0 +1,7 @@
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\bin\ClientWeb.dll
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\bin\ClientWeb.pdb
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\bin\TransfertImageService.dll
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\bin\TransfertImageService.pdb
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\obj\Debug\ClientWeb.dll
+C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\obj\Debug\ClientWeb.pdb
