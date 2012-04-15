@@ -1,0 +1,45 @@
+Interface admin :
+	Ce client devra permettre à l’administrateur système de supprimer n’importe quel compte
+	utilisateur, album photo ou photo. L’implémentation pourra se faire en mode console.
+
+Client lourd :
+	- Split Local / Distant
+	Glisser / déposer de photos locales dans un album distant (ouvert ou icône) pour uploader
+	Glisser / déposer de photos distantes dans un dossier local (ouvert ou icône) pour télécharger
+	Local :
+		- Sélectionner un répertoire pour en visualiser le contenu (les photos)
+	Distant :
+		- Créer un nouvel album
+		- Sélectionner un album pour voir les photos qu'il contient
+		- Autoriser un autre utilisateur à visualiser l'album (l'album apparaît dans la liste des
+		albums partagés sur le client web de cet utilisateur)
+	
+Client léger ASP.NET
+	Ce client permettra à l’utilisateur de voir sous la forme de diaporamas les différentes photos de ces
+	albums en ligne ainsi que ceux que lui ont partagés les autres utilisateurs. 
+
+
+
+===== Design de la BDD =====
+Album :
+  * id
+  * name
+  
+Album_Photo :
+  * id_album
+  * id_photo
+  
+Photo :
+  * id
+  * name
+  * data
+  * hash
+
+Album_User :
+  * id_user
+  * id_album
+
+User :
+  * id
+  * login
+  * password

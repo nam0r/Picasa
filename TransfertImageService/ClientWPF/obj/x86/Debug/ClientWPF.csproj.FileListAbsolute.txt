@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\App.g.cs
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\ClientWPF.g.resources
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\ClientWPF.exe
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\obj\x86\Debug\ClientWPF.pdb
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\bin\Debug\ConsoleApplication1.exe
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\ClientWPF\bin\Debug\ConsoleApplication1.pdb

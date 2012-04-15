@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\DLLExxemple\bin\Release\DLLExxemple.dll
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\DLLExxemple\bin\Release\DLLExxemple.pdb
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\DLLExxemple\obj\Release\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\DLLExxemple\obj\Release\DLLExxemple.dll
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\DLLExxemple\obj\Release\DLLExxemple.pdb

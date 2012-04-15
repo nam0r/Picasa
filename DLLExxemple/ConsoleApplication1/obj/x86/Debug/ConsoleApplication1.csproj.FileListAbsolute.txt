@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\bin\Debug\DLLExxemple.dll
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\bin\Debug\DLLExxemple.pdb
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\user\Desktop\cours\SE\projet\DLLExxemple\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

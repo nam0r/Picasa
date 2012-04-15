@@ -1,0 +1,10 @@
+c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\obj\Debug\ResolveAssemblyReference.cache
+c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\bin\TransfertImageService.dll
+c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\bin\TransfertImageService.pdb
+c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.dll
+c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.pdb
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\TransfertImageService\bin\TransfertImageService.dll
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\TransfertImageService\bin\TransfertImageService.pdb
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\TransfertImageService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.dll
+C:\Users\user\Desktop\cours\SE\projet\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.pdb
