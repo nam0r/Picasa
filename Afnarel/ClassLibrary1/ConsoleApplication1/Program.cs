@@ -37,9 +37,15 @@ namespace ConsoleApplication1
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.Size = new System.Drawing.Size(300, 300);
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 255);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
     }
 
@@ -61,7 +67,7 @@ namespace ConsoleApplication1
         public Program()
         {
             // Connect to DB
-            String connectionString = "Server = OX\\SQLEXPRESS; Database = MiniProjetDB; Trusted_Connection = True;";
+            String connectionString = "Server = NOVAE\\SQLEXPRESS; Database = MiniProjetDB; Trusted_Connection = True;";
             connexion = new System.Data.SqlClient.SqlConnection(connectionString);
 
             // Get image path
@@ -75,7 +81,7 @@ namespace ConsoleApplication1
 
             // Get image from DB
             /*
-            byte[] data = getImage("toto");
+            byte[] data = getImage("A516A0423C9B26BCD7246897F13F5D20EFCDC7BA");
             MemoryStream stream = new MemoryStream(data);
             Image image = Image.FromStream(stream);
 
@@ -111,6 +117,7 @@ namespace ConsoleApplication1
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.StackTrace);
                 return null;
             }
         }

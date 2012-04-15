@@ -5,3 +5,10 @@ C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\bin\T
 C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\bin\TransfertImageService.pdb
 C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\obj\Debug\ClientWeb.dll
 C:\Users\Afnarel\Documents\Visual Studio 2010\Projects\ClientWeb\ClientWeb\obj\Debug\ClientWeb.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\obj\Debug\ClientWeb.dll
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\obj\Debug\ClientWeb.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\bin\ClientWeb.dll
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\bin\ClientWeb.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\bin\TransfertImageService.dll
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\bin\TransfertImageService.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClientWeb\ClientWeb\obj\Debug\ClientWeb.csprojResolveAssemblyReference.cache

@@ -18,14 +18,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:49162/ImageTransfert.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:59016/ImageTransfert.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ImageTransfert.xsd" MetadataType="Schema" ID="126d095c-f3c4-455c-bf20-bab772f8ba3b" SourceId="1" SourceUrl="http://localhost:49162/ImageTransfert.svc?xsd=xsd0" />
-    <MetadataFile FileName="ImageTransfert.wsdl" MetadataType="Wsdl" ID="f22238bd-4f2c-4e36-af2f-6ddd41793d76" SourceId="1" SourceUrl="http://localhost:49162/ImageTransfert.svc?wsdl" />
-    <MetadataFile FileName="ImageTransfert1.xsd" MetadataType="Schema" ID="dd0cf297-8ccc-4d11-8eb2-390c83a43915" SourceId="1" SourceUrl="http://localhost:49162/ImageTransfert.svc?xsd=xsd2" />
-    <MetadataFile FileName="ImageTransfert.disco" MetadataType="Disco" ID="d2fef489-6408-4692-8618-58a007ddfb61" SourceId="1" SourceUrl="http://localhost:49162/ImageTransfert.svc?disco" />
-    <MetadataFile FileName="ImageTransfert2.xsd" MetadataType="Schema" ID="e1b69678-3882-4d2e-bdaf-7cf14e347790" SourceId="1" SourceUrl="http://localhost:49162/ImageTransfert.svc?xsd=xsd1" />
+    <MetadataFile FileName="ImageTransfert1.wsdl" MetadataType="Wsdl" ID="cc69c7ee-7800-4910-872d-e7bbab8c6145" SourceId="1" SourceUrl="http://localhost:59016/ImageTransfert.svc?wsdl" />
+    <MetadataFile FileName="ImageTransfert3.xsd" MetadataType="Schema" ID="323e5793-7849-4670-86db-bbcfaab095a4" SourceId="1" SourceUrl="http://localhost:59016/ImageTransfert.svc?xsd=xsd2" />
+    <MetadataFile FileName="ImageTransfert1.disco" MetadataType="Disco" ID="9f89d13c-c8e8-45ef-9fef-4b8c21a9172a" SourceId="1" SourceUrl="http://localhost:59016/ImageTransfert.svc?disco" />
+    <MetadataFile FileName="ImageTransfert31.xsd" MetadataType="Schema" ID="b40e6f6e-7c9d-432d-8654-fdf547ab33e7" SourceId="1" SourceUrl="http://localhost:59016/ImageTransfert.svc?xsd=xsd1" />
+    <MetadataFile FileName="ImageTransfert32.xsd" MetadataType="Schema" ID="7b26c9d2-fa4a-47f0-9f4a-8c86da9d3333" SourceId="1" SourceUrl="http://localhost:59016/ImageTransfert.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

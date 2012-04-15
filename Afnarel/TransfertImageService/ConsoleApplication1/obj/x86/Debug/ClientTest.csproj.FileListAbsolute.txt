@@ -4,3 +4,9 @@ c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\Con
 c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
 c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\ConsoleApplication1\obj\x86\Debug\ClientTest.csprojResolveAssemblyReference.cache

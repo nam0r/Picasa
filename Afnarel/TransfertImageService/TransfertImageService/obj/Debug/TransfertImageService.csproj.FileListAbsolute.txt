@@ -3,3 +3,8 @@ c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\Tra
 c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\bin\TransfertImageService.pdb
 c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.dll
 c:\users\afnarel\documents\visual studio 2010\Projects\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\TransfertImageService\bin\TransfertImageService.dll
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\TransfertImageService\bin\TransfertImageService.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.csprojResolveAssemblyReference.cache
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.dll
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\TransfertImageService\TransfertImageService\obj\Debug\TransfertImageService.pdb

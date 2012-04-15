@@ -7,12 +7,11 @@ namespace ClientTest
         static void Main(string[] args)
         {
             // Instanciation de la référence de service
-            ImageTransfertServiceReference.ImageTransfertClient
-            imageTransfertService = new
-            ImageTransfertServiceReference.ImageTransfertClient();
-            MemoryStream imageStream = new
-            MemoryStream(lireFichier(@"c:\image.jpg"));
+            ImageTransfertServiceReference.ImageTransfertClient imageTransfertService = 
+                new ImageTransfertServiceReference.ImageTransfertClient();
+            MemoryStream imageStream = new MemoryStream(lireFichier(@"c:\image.jpg"));
             // Appel de notre web method
+            Console.WriteLine("On essaie d'uploader une image.");
             imageTransfertService.UploadImage(imageStream);
             Console.Out.WriteLine("Transfert Terminé");
             Console.ReadLine();
@@ -24,7 +23,7 @@ namespace ClientTest
         /// </summary>
         /// <param name="chemin">chemin du fichier</param>
         /// <returns></returns>
-        private static byte[] lireFichier(string chemin)
+        public static byte[] lireFichier(string chemin)
         {
             byte[] data = null;
             FileInfo fileInfo = new FileInfo(chemin);

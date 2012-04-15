@@ -60,7 +60,7 @@ namespace DBAccess
         public AccesDonnees()
         {
             // Connect to DB
-            String connectionString = "Server = OX\\SQLEXPRESS; Database = MiniProjetDB; Trusted_Connection = True;";
+            String connectionString = "Server = NOVAE\\SQLEXPRESS; Database = MiniProjetDB; Trusted_Connection = True;";
             connexion = new System.Data.SqlClient.SqlConnection(connectionString);
 
             // Get image path

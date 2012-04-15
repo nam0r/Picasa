@@ -5,3 +5,12 @@ c:\users\afnarel\documents\visual studio 2010\Projects\ClassLibrary1\ConsoleAppl
 c:\users\afnarel\documents\visual studio 2010\Projects\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
 c:\users\afnarel\documents\visual studio 2010\Projects\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 c:\users\afnarel\documents\visual studio 2010\Projects\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\bin\Debug\ClassLibrary1.dll
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\bin\Debug\ClassLibrary1.pdb
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\afnarel\Documents\Polytech Nice\Cours\ServeursEntreprise\Picasa\Afnarel\ClassLibrary1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csproj.GenerateResource.Cache

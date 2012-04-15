@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:49162/ImageTransfert.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/Message" />
+  <xs:import schemaLocation="http://localhost:59016/ImageTransfert.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/Message" />
   <xs:element name="UploadImage">
     <xs:complexType>
       <xs:sequence>

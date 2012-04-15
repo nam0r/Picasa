@@ -58,22 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert.wsdl" />
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert2.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ImageTransfertServiceReference\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\ImageTransfertServiceReference\configuration91.svcinfo" />
@@ -82,10 +69,23 @@
     <None Include="Service References\ImageTransfertServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert1.wsdl" />
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert32.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ImageTransfertServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
