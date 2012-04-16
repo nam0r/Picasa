@@ -9,17 +9,147 @@
 //------------------------------------------------------------------------------
 
 namespace ClientTest.ImageTransfertServiceReference {
+    using System.Runtime.Serialization;
+    using System;
     
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ImageInfo", Namespace="http://schemas.datacontract.org/2004/07/TransfertImageService")]
+    [System.SerializableAttribute()]
+    public partial class ImageInfo : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        private string IDField;
+        
+        private int AlbumField;
+        
+        private string NameField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
+        public string ID {
+            get {
+                return this.IDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.IDField, value) != true)) {
+                    this.IDField = value;
+                    this.RaisePropertyChanged("ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=1)]
+        public int Album {
+            get {
+                return this.AlbumField;
+            }
+            set {
+                if ((this.AlbumField.Equals(value) != true)) {
+                    this.AlbumField = value;
+                    this.RaisePropertyChanged("Album");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true, Order=2)]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ImageTransfertServiceReference.IImageTransfert")]
     public interface IImageTransfert {
         
+        // CODEGEN : La génération du contrat de message depuis le nom de wrapper (ImageUploadRequest) du message ImageUploadRequest ne correspond pas à la valeur par défaut (UploadImage)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/UploadImage", ReplyAction="http://tempuri.org/IImageTransfert/UploadImageResponse")]
-        string UploadImage(System.IO.Stream image);
+        ClientTest.ImageTransfertServiceReference.ImageUploadResponse UploadImage(ClientTest.ImageTransfertServiceReference.ImageUploadRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/DownloadImage", ReplyAction="http://tempuri.org/IImageTransfert/DownloadImageResponse")]
         System.IO.Stream DownloadImage(string name);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/DeleteImage", ReplyAction="http://tempuri.org/IImageTransfert/DeleteImageResponse")]
+        bool DeleteImage(string hash);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/CreateAlbum", ReplyAction="http://tempuri.org/IImageTransfert/CreateAlbumResponse")]
+        int CreateAlbum(string name, string user);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/DeleteAlbum", ReplyAction="http://tempuri.org/IImageTransfert/DeleteAlbumResponse")]
+        bool DeleteAlbum(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/AddUser", ReplyAction="http://tempuri.org/IImageTransfert/AddUserResponse")]
+        int AddUser(string user, string password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IImageTransfert/DeleteUser", ReplyAction="http://tempuri.org/IImageTransfert/DeleteUserResponse")]
+        bool DeleteUser(string user);
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ImageUploadRequest", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ImageUploadRequest {
+        
+        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://tempuri.org/")]
+        public ClientTest.ImageTransfertServiceReference.ImageInfo ImageInfo;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public System.IO.Stream ImageData;
+        
+        public ImageUploadRequest() {
+        }
+        
+        public ImageUploadRequest(ClientTest.ImageTransfertServiceReference.ImageInfo ImageInfo, System.IO.Stream ImageData) {
+            this.ImageInfo = ImageInfo;
+            this.ImageData = ImageData;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ImageUploadResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ImageUploadResponse {
+        
+        [System.ServiceModel.MessageHeaderAttribute(Namespace="http://tempuri.org/")]
+        public ClientTest.ImageTransfertServiceReference.ImageInfo ImageInfo;
+        
+        public ImageUploadResponse() {
+        }
+        
+        public ImageUploadResponse(ClientTest.ImageTransfertServiceReference.ImageInfo ImageInfo) {
+            this.ImageInfo = ImageInfo;
+        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -49,12 +179,41 @@ namespace ClientTest.ImageTransfertServiceReference {
                 base(binding, remoteAddress) {
         }
         
-        public string UploadImage(System.IO.Stream image) {
-            return base.Channel.UploadImage(image);
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ClientTest.ImageTransfertServiceReference.ImageUploadResponse ClientTest.ImageTransfertServiceReference.IImageTransfert.UploadImage(ClientTest.ImageTransfertServiceReference.ImageUploadRequest request) {
+            return base.Channel.UploadImage(request);
+        }
+        
+        public void UploadImage(ref ClientTest.ImageTransfertServiceReference.ImageInfo ImageInfo, System.IO.Stream ImageData) {
+            ClientTest.ImageTransfertServiceReference.ImageUploadRequest inValue = new ClientTest.ImageTransfertServiceReference.ImageUploadRequest();
+            inValue.ImageInfo = ImageInfo;
+            inValue.ImageData = ImageData;
+            ClientTest.ImageTransfertServiceReference.ImageUploadResponse retVal = ((ClientTest.ImageTransfertServiceReference.IImageTransfert)(this)).UploadImage(inValue);
+            ImageInfo = retVal.ImageInfo;
         }
         
         public System.IO.Stream DownloadImage(string name) {
             return base.Channel.DownloadImage(name);
+        }
+        
+        public bool DeleteImage(string hash) {
+            return base.Channel.DeleteImage(hash);
+        }
+        
+        public int CreateAlbum(string name, string user) {
+            return base.Channel.CreateAlbum(name, user);
+        }
+        
+        public bool DeleteAlbum(int id) {
+            return base.Channel.DeleteAlbum(id);
+        }
+        
+        public int AddUser(string user, string password) {
+            return base.Channel.AddUser(user, password);
+        }
+        
+        public bool DeleteUser(string user) {
+            return base.Channel.DeleteUser(user);
         }
     }
 }

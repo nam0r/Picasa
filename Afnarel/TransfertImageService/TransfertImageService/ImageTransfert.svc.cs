@@ -9,22 +9,33 @@ using DBAccess;
 
 namespace TransfertImageService
 {
-    // REMARQUE : vous pouvez utiliser la commande Renommer du menu Refactoriser pour changer le nom de classe "ImageTransfert" à la fois dans le code, le fichier svc et le fichier de configuration.
+
     public class ImageTransfert : IImageTransfert
     {
         private AccesDonnees bdAccess = new AccesDonnees();
 
-        public String UploadImage(Stream image)
+        public ImageUploadResponse UploadImage(ImageUploadRequest request) // , String name
         {
+            Stream image = request.ImageData;
+            ImageInfo infos = request.ImageInfo;
+
             // Stocker l’image en BDD
             byte[] imageBytes = null;
             MemoryStream imageStreamEnMemoire = new MemoryStream();
             image.CopyTo(imageStreamEnMemoire);
             imageBytes = imageStreamEnMemoire.ToArray();
-            String imageID = bdAccess.addImage(imageBytes, "trololo");
+            String imageID = bdAccess.uploadImage(imageBytes, infos.Name, infos.Album); // name
             imageStreamEnMemoire.Close();
             image.Close();
-            return imageID;
+
+            infos.ID = imageID;
+
+            ImageUploadResponse resp = new ImageUploadResponse();
+            resp.ImageInfo = new ImageInfo();
+            resp.ImageInfo.Album = infos.Album;
+            resp.ImageInfo.Name = infos.Name;
+            resp.ImageInfo.ID = infos.ID;
+            return resp;
         }
 
         public Stream DownloadImage(String imageID)
@@ -33,6 +44,36 @@ namespace TransfertImageService
             byte[] imageBytes = bdAccess.getImage(imageID);
             MemoryStream imageStreamEnMemoire = new MemoryStream(imageBytes);
             return imageStreamEnMemoire;
+        }
+
+
+        public int AddUser(string user, string password)
+        {
+            return bdAccess.addUser(user, password);
+        }
+
+
+        public bool DeleteUser(string user)
+        {
+            return bdAccess.deleteUser(user);
+        }
+
+
+        public bool DeleteImage(string hash)
+        {
+            return bdAccess.deleteImage(hash);
+        }
+
+
+        public int CreateAlbum(string name, string user)
+        {
+            return bdAccess.createAlbum(name, user);
+        }
+
+
+        public bool DeleteAlbum(int id)
+        {
+            return bdAccess.deleteAlbum(id);
         }
     }
 }

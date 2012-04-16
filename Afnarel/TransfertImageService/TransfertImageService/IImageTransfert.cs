@@ -8,15 +8,55 @@ using System.IO;
 
 namespace TransfertImageService
 {
-    // REMARQUE : vous pouvez utiliser la commande Renommer du menu Refactoriser pour changer le nom d'interface "IImageTransfert" à la fois dans le code et le fichier de configuration.
     [ServiceContract]
     public interface IImageTransfert
     {
+
+        /**
+         * Upload l'image "image" dans la BDD avec comme id son hash et comme nom "name".
+         * Retourne le hash de l'image si tout s'est bien passé, null sinon.
+         */
+        // String UploadImage(Stream image); // , String name
         [OperationContract]
-        String UploadImage(Stream image);
+        ImageUploadResponse UploadImage(ImageUploadRequest request); // , String name
 
         [OperationContract]
         Stream DownloadImage(String name);
+
+        [OperationContract]
+        bool DeleteImage(String hash);
+
+        [OperationContract]
+        int CreateAlbum(String name, String user);
+
+        [OperationContract]
+        bool DeleteAlbum(int id);
+
+        /**
+         * Ajoute l'utilisateur de login "user" avec le mot de passe "password"
+         * Retourne l'ID de l'utilisateur ou -1 si il y a eu une erreur (par exemple
+         * si utilisateur de même login existe déjà dans la base de donnée car il
+         * y a une contrainte d'unicité sur la colonne "login").
+         */
+        [OperationContract]
+        int AddUser(String user, String password);
+
+        /**
+         * Supprime l'utilisateur de login "user" (unique).
+         * Retourne true en cas de succès ou false s'il y a eu une erreur
+         * (par exemple, si aucun utilisateur de login "user" n'existe dans
+         * la base de donnée).
+         */
+        [OperationContract]
+        bool DeleteUser(String user);
+        /*
+        String createNewAlbum(String wantedName, String user);
+        void deleteAlbum(String albumID);
+        List<String> getUserAlbum(String user);
+        List<String> getViewableAlbum(String user);
+        String addPicture(String albumID, Stream picture);
+        void deletePicture(String albumID, String pictureID);
+         */
 
     }
 
@@ -29,6 +69,13 @@ namespace TransfertImageService
 
         [MessageBodyMember(Order = 1)]
         public Stream ImageData;
+    }
+
+    [MessageContract]
+    public class ImageUploadResponse
+    {
+        [MessageHeader(MustUnderstand = true)]
+        public ImageInfo ImageInfo;
     }
 
     [MessageContract]
@@ -52,7 +99,9 @@ namespace TransfertImageService
         public string ID { get; set; }
 
         [DataMember(Order = 2, IsRequired = true)]
-        public string Album { get; set; }
+        public int Album { get; set; }
 
+        [DataMember(Order = 3, IsRequired = true)]
+        public string Name { get; set; }
     }
 }
