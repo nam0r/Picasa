@@ -63,20 +63,26 @@
     <WCFMetadataStorage Include="Service References\ImageTransfertServiceReference\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\ImageTransfertServiceReference\ClientTest.ImageTransfertServiceReference.ImageInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\ImageTransfertServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\ImageTransfertServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert1.wsdl" />
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert.wsdl" />
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ImageTransfertServiceReference\ImageTransfert3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert31.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert32.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\ImageTransfertServiceReference\Reference.svcmap">
@@ -85,7 +91,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert1.disco" />
+    <None Include="Service References\ImageTransfertServiceReference\ImageTransfert.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
